@@ -96,7 +96,7 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="form reservation__form">
+          <form class="form reservation__form">
             <fieldset class="form form__fieldset">
               <label for="name" class="form form__label">Name *</label>
               <input
@@ -114,7 +114,8 @@
                 min="1"
                 max="8"
                 class="form form__input"
-                id="guest-number required"
+                id="guest-number
+                required"
                 placeholder="1-8"
               />
               <label for="datetime" class="form form__label"
@@ -131,8 +132,8 @@
             </fieldset>
             <button class="form form__button form__input">Book a table</button>
             <label class="form form__checkbox form__label_type_checkbox"
-              ><input type="checkbox" class="form" required />I agree with the
-              terms of use</label
+              ><input type="checkbox" class="form form__checkbox" required />I
+              agree with the terms of use</label
             >
           </form>
         </section>
