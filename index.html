@@ -66,8 +66,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Fwim-uTO61pd034r"
                 title="YouTube video player"
@@ -78,8 +78,8 @@
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span> ~5 min
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8?si=W24fO3qBWUgePTox"
                 title="YouTube video player"
@@ -90,56 +90,53 @@
               <p class="recipes__video-caption">
                 <span>French press recipe</span> ~15 min
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
-            <fieldset class="form form__fieldset">
-              <label for="name" class="form form__label">Name *</label>
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
-                class="form form__input"
+                class="form__input"
                 id="name"
                 required
                 placeholder="Name Surname"
               />
-              <label for="guest-number" class="form form__label"
+              <label for="guest-number" class="form__label"
                 >Number of guests *</label
               >
               <input
                 type="number"
                 min="1"
                 max="8"
-                class="form form__input"
+                class="form__input"
                 id="guest-number"
                 required
                 placeholder="1-8"
               />
-              <label for="datetime" class="form form__label"
-                >Date & time *</label
-              >
+              <label for="datetime" class="form__label">Date & time *</label>
               <input
                 type="datetime-local"
-                class="form form__input"
+                class="form__input"
                 id="datetime"
                 required
               />
-              <label for="email" class="form form__label">Your email *</label>
+              <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 id="email"
-                class="form form__input"
+                class="form__input"
                 required
                 placeholder="email@email.com"
               />
             </fieldset>
-            <button class="form form__button form__input">Book a table</button>
-            <label
-              class="form form__checkbox form__label form__label_type_checkbox"
-              ><input type="checkbox" class="form form__checkbox" required />I
-              agree with the terms of use</label
+            <button class="form__button">Book a table</button>
+            <label class="form__label form__label_type_checkbox"
+              ><input type="checkbox" class="form__checkbox" required />I agree
+              with the terms of use</label
             >
           </form>
         </section>

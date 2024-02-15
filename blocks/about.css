@@ -30,12 +30,11 @@
   line-height: 52px;
   max-width: 251px;
   z-index: 1;
-  position: relative;
-  top: -19px;
 }
 
 .about__content {
   max-width: 660px;
+  margin-top: 19px;
 }
 
 .about__paragraph {
